@@ -17,9 +17,7 @@ import androidx.navigation.fragment.NavHostFragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.GameFragmentBinding
 
-/**
- * Fragment where the game is played
- */
+
 class GameFragment : Fragment() {
 
     private lateinit var viewModel: GameViewModel
