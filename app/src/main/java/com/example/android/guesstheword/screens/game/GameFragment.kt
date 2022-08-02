@@ -68,9 +68,7 @@ class GameFragment : Fragment() {
 
     }
 
-    /**
-     * Given a pattern, this method makes sure the device buzzes
-     */
+    
     private fun buzz(pattern: LongArray) {
         val buzzer = activity?.getSystemService<Vibrator>()
         buzzer?.let {
