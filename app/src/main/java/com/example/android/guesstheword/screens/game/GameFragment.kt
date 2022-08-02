@@ -68,7 +68,7 @@ class GameFragment : Fragment() {
 
     }
 
-    
+
     private fun buzz(pattern: LongArray) {
         val buzzer = activity?.getSystemService<Vibrator>()
         buzzer?.let {
